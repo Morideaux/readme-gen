@@ -14,6 +14,51 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description
+
+  ${data.description}
+
+  ## table of contents
+
+  [Installation](#instalation)
+
+  [Usage](usage)
+
+  [Contributors](#contributors)
+
+  [Test](test)
+
+  [Questions](#questions)
+
+  ## Instalation
+
+  run the following to install:
+
+  ${data.Instalation}
+
+  ## Usage
+
+  ${data.usage}
+
+  ${renderLicenseSection(data.licence)}
+
+  ### Contributing
+
+  ${data.contributing}
+
+  ### Test
+
+  test are run with the following command:
+
+  ${data.test}
+
+
+  ## Questions
+
+  Send an email to ${data.email} if you have any questions about the project.
+
+  you can also find other projects at (https://github.com/${data.github}/).
+
 `;
 }
 
