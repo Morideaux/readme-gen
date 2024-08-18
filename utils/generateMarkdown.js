@@ -57,7 +57,7 @@ function generateMarkdown(data) {
 
   run the following to install:
 
-  ${data.Instalation}
+  ${data.instalation}
 
   ## Usage
 
