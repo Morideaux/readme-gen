@@ -10,7 +10,15 @@ Ultimatly this project allowed me to further familiarize my self with node and c
 
 ## Instalation
 
+After cloning the repo one would be able to run the app in their terminal. Follow the documentation on cloning a github repository.
+
+![GitHub.com/cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository "cloning a repository")
+
 ## Usage
+
+This project is run in a terminal. Follow along with the following video for instruction on it's functionality:
+
+!['tutorial'](link to vid in assets)
 
 ## Credits
 
