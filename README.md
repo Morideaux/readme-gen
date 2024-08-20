@@ -19,6 +19,7 @@ After cloning the repo one would be able to run the app in their terminal. Follo
 This project is run in a terminal. Follow along with the following video for instruction on it's functionality:
 
 !['tutorial'](link to vid in assets)
+![Screenshot]()
 
 ## Credits
 
