@@ -21,6 +21,8 @@ This project is run in a terminal. Follow along with the following video for ins
 !['tutorial'](link to vid in assets)
 ![Screenshot]()
 
+It does not run. As a result there is not screen shot or tutorial at the momment
+
 ## Credits
 
 I worked as an individual on this project, but I did utilize the following tutorials:

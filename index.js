@@ -6,54 +6,54 @@ const generateMarkdown = require("generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
-{
-  type: 'input',
-  name: 'github',
-  message: 'type your GitHub Username',
-}
-{
-  type: 'input',
-  name: 'email',
-  message: 'Type your Email address',
-}
-{
-  type: 'input',
-  name: 'title',
-  message: 'type the projects title',
-}
-{
-  type: 'input',
-  name: 'description',
-  message: 'Put a short project description',
-}
-{
-  type: 'input',
-  name: 'instalation',
-  message: 'What command installs the dependencies?',
-  default: 'npm i'
-}
-{
-  type: 'input',
-  name: 'usage',
-  message: 'how should the repo be used',
-}
-{
-  type: 'input',
-  name: 'contributing',
-  message: 'who contributed to the project and how can anyone contribute?',
-}
-{
-  type: 'input',
-  name: 'test',
-  message: 'what command runs test?',
-  default: 'npm test'
-}
-{
-  type: 'list',
-  name: 'license',
-  message: 'What license should this project have?',
-  choices: ['APACHE 2.0', 'BSD 3', 'GNU 3.0', 'MIT', null],
-}
+  {
+    type: "input",
+    name: "github",
+    message: "type your GitHub Username",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Type your Email address",
+  },
+  {
+    type: "input",
+    name: "title",
+    message: "type the projects title",
+  },
+  {
+    type: "input",
+    name: "description",
+    message: "Put a short project description",
+  },
+  {
+    type: "input",
+    name: "instalation",
+    message: "What command installs the dependencies?",
+    default: "npm i",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "how should the repo be used",
+  },
+  {
+    type: "input",
+    name: "contributing",
+    message: "who contributed to the project and how can anyone contribute?",
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "what command runs test?",
+    default: "npm test",
+  },
+  {
+    type: "list",
+    name: "license",
+    message: "What license should this project have?",
+    choices: ["APACHE 2.0", "BSD 3", "GNU 3.0", "MIT", null],
+  },
 ];
 
 // TODO: Create a function to write README file
